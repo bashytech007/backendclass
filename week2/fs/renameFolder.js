@@ -1,7 +1,7 @@
 const fs=require('fs')
 
 
-fs.rename('./ios','./linux',(error)=>{
+fs.rename('./practice','./bash',(error)=>{
   if (error){
     console.log(error)
   }
